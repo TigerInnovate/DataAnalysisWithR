@@ -1,4 +1,4 @@
-presidents <- read.fwf("ch02_presidents", widths = c(9, 15, 3), col.names = c("id","name","months"))
+presidents <- read.fwf("presidents.txt", widths = c(9, 15, 3), col.names = c("id","name","months"))
 
 with(
   data=presidents, 
